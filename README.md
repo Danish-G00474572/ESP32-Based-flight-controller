@@ -17,7 +17,7 @@ Upload both sketches as a pair. They use version 2 of the control packet. The ol
 
 ## Wiring
 
-GPIO numbers refer to pin labels on each dev board. Both OLEDs are configured as 128×64 I²C SSD1306 displays. The sketches probe addresses `0x3C` and `0x3D` at startup.
+Both OLEDs are configured as 128×64 I²C SSD1306 displays. The sketches probe addresses `0x3C` and `0x3D` at startup.
 
 ### ESP32-C6 handheld
 
